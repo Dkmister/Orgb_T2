@@ -1,5 +1,4 @@
 #include <iostream>
-#include <conio.h>
 #include <cstdlib>
 
 using namespace std;
@@ -29,6 +28,5 @@ int main()
     cout << "Digite um numero:\n";
     cin >> n;
     cout << "Resultado: "<<fib_space(n)<<" \n";
-    _getch();
     return 0;
 }
