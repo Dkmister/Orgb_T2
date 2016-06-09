@@ -1,8 +1,5 @@
-#include <iostream>
-#include <cstdlib>
-
-using namespace std;
-
+#include <stdlib.h>
+#include <stdio.h>
 
 // Fibonacci com Otimização de Espaço
 // Complexidade:
@@ -22,11 +19,9 @@ int fib_space(int n)
 }
 
 
-int main()
+int main ( int argc, char *argv[] )
 {
-    int n;
-    cout << "Digite um numero:\n";
-    cin >> n;
-    cout << "Resultado: "<<fib_space(n)<<" \n";
+    int n = atoi(argv[1]);
+    printf("%d\n", fib_space(n));
     return 0;
 }

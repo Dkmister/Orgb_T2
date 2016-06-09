@@ -1,8 +1,5 @@
-#include <iostream>
-#include <cstdlib>
-
-using namespace std;
-
+#include <stdio.h>
+#include <stdlib.h>
 
 // Fibonacci recursivo
 // Complexidade:
@@ -17,12 +14,9 @@ int fib_rec(int n)
 }
 
 
-int main()
+int main ( int argc, char *argv[] )
 {
-    int n;
-    cout << "Digite um numero:\n";
-    cin >> n;
-    cout << "Resultado: "<<fib_rec(n)<<"";
-
+    int n = atoi(argv[1]);
+    printf("%d\n", fib_rec(n));
     return 0;
 }
