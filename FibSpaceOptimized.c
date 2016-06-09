@@ -21,7 +21,6 @@ int fib_space(int n)
 
 int main ( int argc, char *argv[] )
 {
-    int n = atoi(argv[1]);
-    printf("%d\n", fib_space(n));
+    printf("%d\n", fib_space(30));
     return 0;
 }

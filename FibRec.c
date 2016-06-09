@@ -16,7 +16,6 @@ int fib_rec(int n)
 
 int main ( int argc, char *argv[] )
 {
-    int n = atoi(argv[1]);
-    printf("%d\n", fib_rec(n));
+    printf("%d\n", fib_rec(30));
     return 0;
 }

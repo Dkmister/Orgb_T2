@@ -13,7 +13,6 @@ int fib_op(int x)
 /*O Programa main é apenas um teste para ver se o programa funciona certo com números inteiros*/
 int main ( int argc, char *argv[] )
 {
-    int n = atoi(argv[1]);
-    printf("%d\n", fib_op(n));
+    printf("%d\n", fib_op(30));
     return 0;
 }
