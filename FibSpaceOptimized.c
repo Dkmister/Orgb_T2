@@ -21,6 +21,6 @@ int fib_space(int n)
 
 int main ( int argc, char *argv[] )
 {
-    printf("%d\n", fib_space(30));
+    printf("%d\n", fib_space(25));
     return 0;
 }
