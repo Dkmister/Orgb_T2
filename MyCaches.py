@@ -38,7 +38,7 @@ class L1ICache(L1Cache):
     """Cache L1 de instruções"""
 
     ## Tamanho da cache L1-I
-    size = '16kB'
+    size = '32kB'
     ## Associatividade da cache L1-I
     assoc = 8
     ## Latência do hit da cache L1-I
